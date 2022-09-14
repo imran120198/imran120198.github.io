@@ -11,7 +11,8 @@ import {
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap } from "react-icons/bs";
+import { SiChakraui } from "react-icons/si";
+import { TbBrandVercel } from "react-icons/tb";
 
 export const Techstacks = () => {
   return (
@@ -44,20 +45,24 @@ export const Techstacks = () => {
             <h5>TYPESCRIPT</h5>
           </div>
           <div>
+            <VscGithub />
+            <h5>Github</h5>
+          </div>
+          <div>
             <SiMaterialui />
             <h5>Material Ui</h5>
           </div>
           <div>
-            <BsBootstrap />
-            <h5>Bootstrap</h5>
+            <SiChakraui />
+            <h5>Chakra Ui</h5>
           </div>
           <div>
             <SiNetlify />
             <h5>Netlify</h5>
           </div>
           <div>
-            <VscGithub />
-            <h5>Github</h5>
+            <TbBrandVercel />
+            <h5>Vercel</h5>
           </div>
         </div>
       </div>

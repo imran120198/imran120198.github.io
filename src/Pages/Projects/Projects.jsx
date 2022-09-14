@@ -11,6 +11,53 @@ const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           Projects
         </h2>
+
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://user-images.githubusercontent.com/99397606/187070444-972d0fca-7017-4d93-900f-9c87966335b0.png"
+                  alt="Animoto"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Animoto Clone</h2>
+              <p>
+                Animoto is a cloud-based video creation service that produces
+                video from photos, video clips, and music into video slideshows,
+                and customized web-based presentations.
+              </p>
+              <div>
+                <FaReact />
+                <IoLogoJavascript />
+                <SiHtml5 />
+                <DiCss3 />
+              </div>
+              <div>
+                <a
+                  href="https://phenomenal-toffee-fb7d80.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/imran120198/cheerful-notebook-6741"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
