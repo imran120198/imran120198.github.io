@@ -6,6 +6,7 @@ import {
   SiMaterialui,
   SiNetlify,
   SiRedux,
+  SiJest,
   SiTypescript,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
@@ -38,11 +39,11 @@ export const Techstacks = () => {
           </div>
           <div>
             <SiRedux />
-            <h5>REDUX</h5>
+            <h5>Redux</h5>
           </div>
           <div>
             <SiTypescript />
-            <h5>TYPESCRIPT</h5>
+            <h5>Typescript</h5>
           </div>
           <div>
             <VscGithub />
@@ -63,6 +64,10 @@ export const Techstacks = () => {
           <div>
             <TbBrandVercel />
             <h5>Vercel</h5>
+          </div>
+          <div>
+            <SiJest/>
+            <h5>Jest</h5>
           </div>
         </div>
       </div>

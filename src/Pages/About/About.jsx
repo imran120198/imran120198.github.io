@@ -8,6 +8,7 @@ import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
 import { Type } from "./Type";
+import { Github } from "./Github";
 export const About = () => {
   return (
     <>
@@ -66,6 +67,7 @@ export const About = () => {
       <section id="#skills">
         <Techstacks />
       </section>
+      <Github />
     </>
   );
 };
