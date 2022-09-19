@@ -9,6 +9,7 @@ import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
 import { Type } from "./Type";
 import { Github } from "./Github";
+import { Statistic } from "./Statistic";
 export const About = () => {
   return (
     <>
@@ -25,7 +26,7 @@ export const About = () => {
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/imran120198"
+            href="https://github.com/imran-khan98"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -67,6 +68,7 @@ export const About = () => {
       <section id="#skills">
         <Techstacks />
       </section>
+      <Statistic/>
       <Github />
     </>
   );
