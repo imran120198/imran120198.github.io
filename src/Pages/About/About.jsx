@@ -26,7 +26,7 @@ export const About = () => {
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/imran-khan98"
+            href="https://github.com/imran120198"
             aria-label="github"
             target="_blank"
             rel="noreferrer"

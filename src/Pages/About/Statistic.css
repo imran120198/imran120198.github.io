@@ -47,7 +47,7 @@
   
   @media (max-width: 600px) {
     .statsection {
-      height: 120vh;
+      height: 60vh;
     }
     .statsection > div {
       width: 40%;

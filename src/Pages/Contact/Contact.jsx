@@ -24,7 +24,7 @@ export const Contact = () => {
             <FaLinkedin className="linkedin" />
           </a>
           <a
-            href="https://github.com/imran-khan98"
+            href="https://github.com/imran120198"
             target="_blank"
             rel="noreferrer"
           >
