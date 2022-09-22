@@ -83,8 +83,8 @@ export const Navbar = () => {
           </li> */}
           <li className="nav__list-item">
             <a
-              href="ImranKhanResume.pdf"
-              download="Resume"
+              href="./resource/Imran Khan Resume.pdf"
+              download="Imran Khan Resume"
               target="_blank"
               rel="noreferrer"
             >
