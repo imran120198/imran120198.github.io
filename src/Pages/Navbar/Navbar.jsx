@@ -69,12 +69,22 @@ export const Navbar = () => {
               Contact
             </a>
           </li>
-          <li className="nav__list-item">
+          {/* <li className="nav__list-item">
             <a
               href="https://drive.google.com/file/d/1-iWeCjKjXO3MwAr-0VLKNETRo1v-cKCA/view?usp=sharing"
               download
               onClick={toggleNavList}
               className="link link--nav"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
+          </li> */}
+          <li className="nav__list-item">
+            <a
+              href="ImranKhanResume.pdf"
+              download="Resume"
               target="_blank"
               rel="noreferrer"
             >
