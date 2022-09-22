@@ -5,6 +5,7 @@ import Brightness2Icon from "@mui/icons-material/Brightness2";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
+import resume from "../../resource/Imran_Khan_Resume.pdf";
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
@@ -17,6 +18,7 @@ export const Navbar = () => {
     }
     setShowNavList(!showNavList);
   };
+
   return (
     <>
       <nav className="center nav">
@@ -83,8 +85,9 @@ export const Navbar = () => {
           </li> */}
           <li className="nav__list-item">
             <a
-              href="./resource/Imran Khan Resume.pdf"
-              download="Imran Khan Resume"
+              href={resume}
+              download={"Imran Khan Resume"}
+              className="link link--nav"
               target="_blank"
               rel="noreferrer"
             >
