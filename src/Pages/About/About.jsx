@@ -68,7 +68,7 @@ export const About = () => {
       <section id="#skills">
         <Techstacks />
       </section>
-      <Statistic/>
+      <Statistic />
       <Github />
     </>
   );

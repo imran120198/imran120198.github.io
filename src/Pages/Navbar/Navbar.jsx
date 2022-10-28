@@ -5,7 +5,7 @@ import Brightness2Icon from "@mui/icons-material/Brightness2";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
-import resume from "../../resource/Imran_Khan_Resume.pdf";
+import resume from "../../resource/Imran Khan_Resume.pdf";
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);

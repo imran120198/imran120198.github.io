@@ -5,7 +5,7 @@ export const Statistic = () => {
   return (
     <>
       <div className="section main" data-aos="fade-right">
-        <h2 className="section__title different">Statistic</h2>
+        <h2 className="section__title different">Statistics</h2>
         <div className="statsection">
           <div>
             <h5>1200+ <br/> Hour of Full Stack Coading</h5>

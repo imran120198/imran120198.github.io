@@ -14,6 +14,12 @@ import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { SiChakraui } from "react-icons/si";
 import { TbBrandVercel } from "react-icons/tb";
+import { SiMongodb } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiCypress } from "react-icons/si";
+import { DiGit } from "react-icons/di";
+import { SiHeroku } from "react-icons/si";
 
 export const Techstacks = () => {
   return (
@@ -42,12 +48,28 @@ export const Techstacks = () => {
             <h5>Redux</h5>
           </div>
           <div>
+            <SiMongodb />
+            <h5>MongoDb</h5>
+          </div>
+          <div>
+            <FaNodeJs />
+            <h5>Node JS</h5>
+          </div>
+          <div>
+            <SiExpress />
+            <h5>Express</h5>
+          </div>
+          <div>
             <SiTypescript />
             <h5>Typescript</h5>
           </div>
           <div>
             <VscGithub />
             <h5>Github</h5>
+          </div>
+          <div>
+            <DiGit />
+            <h5>Git</h5>
           </div>
           <div>
             <SiMaterialui />
@@ -66,7 +88,15 @@ export const Techstacks = () => {
             <h5>Vercel</h5>
           </div>
           <div>
-            <SiJest/>
+            <SiHeroku />
+            <h5>Heroku</h5>
+          </div>
+          <div>
+            <SiCypress />
+            <h5>Cypress</h5>
+          </div>
+          <div>
+            <SiJest />
             <h5>Jest</h5>
           </div>
         </div>
