@@ -89,11 +89,11 @@
     padding: 6px;
     margin-top: 10px;
   }
-  /* .btn:hover{
+  .btn:hover{
     color: var(--clr-bg);
     border: 2px solid var(--clr-primary);
     background-color: var(--clr-primary);
-  } */
+  }
   .project_information > h3 {
     margin-top: 1.6em;
     color: var(--clr-primary);
