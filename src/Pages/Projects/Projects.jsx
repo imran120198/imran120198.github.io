@@ -46,7 +46,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <span type="button" className="btn onbt">
                     See this Live
                   </span>
                 </a>
@@ -55,9 +55,9 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <button type="button" className="btn onbt">
                     View Code
-                  </span>
+                  </button>
                 </a>
               </div>
             </div>
@@ -93,7 +93,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <span type="button" className="btn onbt">
                     See this Live
                   </span>
                 </a>
@@ -102,7 +102,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <span type="button" className="btn onbt">
                     View Code
                   </span>
                 </a>
@@ -138,7 +138,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <span type="button" className="btn onbt">
                     See this Live
                   </span>
                 </a>
@@ -147,7 +147,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <span type="button" className="btn onbt">
                     View Code
                   </span>
                 </a>
@@ -184,7 +184,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <span type="button" className="btn onbt">
                     See this Live
                   </span>
                 </a>
@@ -193,7 +193,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <span type="button" className="btn onbt">
                     View Code
                   </span>
                 </a>
