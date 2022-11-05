@@ -46,7 +46,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn onbt">
+                  <span type="button" className="btns onbt">
                     See this Live
                   </span>
                 </a>
@@ -55,7 +55,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button type="button" className="btn onbt">
+                  <button type="button" className="btns onbt">
                     View Code
                   </button>
                 </a>
@@ -93,7 +93,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn onbt">
+                  <span type="button" className="btns onbt">
                     See this Live
                   </span>
                 </a>
@@ -102,7 +102,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn onbt">
+                  <span type="button" className="btns onbt">
                     View Code
                   </span>
                 </a>
@@ -138,7 +138,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn onbt">
+                  <span type="button" className="btns onbt">
                     See this Live
                   </span>
                 </a>
@@ -147,7 +147,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn onbt">
+                  <span type="button" className="btns onbt">
                     View Code
                   </span>
                 </a>
@@ -184,7 +184,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn onbt">
+                  <span type="button" className="btns onbt">
                     See this Live
                   </span>
                 </a>
@@ -193,7 +193,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn onbt">
+                  <span type="button" className="btns onbt">
                     View Code
                   </span>
                 </a>

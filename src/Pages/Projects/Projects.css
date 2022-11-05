@@ -81,7 +81,7 @@
     margin: 0 1vw 0 1vw;
     border: 1px solid var(--clr-primary);
   }
-  .btn{
+  .btns{
     color: var(--clr-primary);
     border-radius: 5px;
     height: 40px;
@@ -89,7 +89,7 @@
     padding: 6px;
     margin-top: 10px;
   }
-  .btn:hover{
+  .btns:hover{
     color: var(--clr-bg);
     border: 2px solid var(--clr-primary);
     background-color: var(--clr-primary);
