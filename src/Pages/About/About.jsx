@@ -68,8 +68,8 @@ export const About = () => {
       <section id="#skills">
         <Techstacks />
       </section>
-      <Statistic />
       <Github />
+      <Statistic />
     </>
   );
 };

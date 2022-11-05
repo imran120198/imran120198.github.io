@@ -47,10 +47,10 @@
 
 @media (max-width: 600px) {
   .statsection {
-    height: 60vh;
+    height: 30vh;
   }
   .statsection > div {
-    width: 40%;
+    width: 30%;
     margin-right: 5%;
     margin-bottom: 2%;
     height: 18vh;
