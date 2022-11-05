@@ -55,9 +55,9 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button type="button" className="btns onbt">
+                  <span type="button" className="btns onbt">
                     View Code
-                  </button>
+                  </span>
                 </a>
               </div>
             </div>

@@ -92,7 +92,7 @@ main {
 
 .btn--outline {
   color: var(--clr-primary);
-  /* border: 2px solid var(--clr-primary); */
+  border: 2px solid var(--clr-primary);
   position: relative;
   overflow: hidden;
   z-index: 1;
