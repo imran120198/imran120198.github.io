@@ -14,7 +14,7 @@ export const About = () => {
   return (
     <>
       <div className="about center">
-        <h1 data-aos="fade-right">
+        <h1 data-aos="fade-right" className="nameTitle">
           Hi, I am <span className="about__name">Imran Khan</span>
         </h1>
         <Type />

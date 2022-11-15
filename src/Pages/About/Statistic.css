@@ -47,12 +47,9 @@
 
 @media (max-width: 600px) {
   .statsection {
-    height: 30vh;
+    height: 20vh;
   }
-  .statsection > div {
-    width: 30%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    height: 18vh;
+  .statsection > img {
+    width: 80%;
   }
 }

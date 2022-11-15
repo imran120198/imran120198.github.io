@@ -1,21 +1,18 @@
 .header {
   height: 5em;
-  /* max-width: 1500px; */
   padding-left: 100px;
   padding-right: 100px;
   width: 100%;
-  margin: 0 auto;
   justify-content: space-between;
   position: fixed;
   z-index: 1;
   top: 0;
-  /* backdrop-filter: blur(5px); */
 }
 
-@media (max-width: 600px) {
+@media (min-width:381px) and (max-width: 600px) {
   .header {
     height: 6em;
-    padding-left: 50px;
-    padding-right: 50px;
   }
 }
+
+

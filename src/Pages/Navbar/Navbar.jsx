@@ -19,6 +19,10 @@ export const Navbar = () => {
     setShowNavList(!showNavList);
   };
 
+  const handelclick=()=>{
+    return window.open("https://drive.google.com/file/d/1-iWeCjKjXO3MwAr-0VLKNETRo1v-cKCA/view?usp=share_link","_blank")
+   }
+
   return (
     <>
       <nav className="center nav">
@@ -90,6 +94,7 @@ export const Navbar = () => {
               className="link link--nav"
               target="_blank"
               rel="noreferrer"
+              onClick={handelclick}
             >
               Resume
             </a>
