@@ -42,7 +42,7 @@ const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://capable-taiyaki-eb17f0.netlify.app/"
+                  href="https://comforting-bublanina-ea183a.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

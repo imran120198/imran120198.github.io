@@ -35,7 +35,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:ik6156876@gmail.com"
+            href="mailto:ik048941@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="github"

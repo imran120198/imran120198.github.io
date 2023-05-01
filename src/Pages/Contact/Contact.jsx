@@ -31,19 +31,19 @@ export const Contact = () => {
             <VscGithub className="github" />
           </a>
           <a
-            href="mailto:ik6156876@gmail.com"
+            href="mailto:ik048941@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
             <CgMail className="email" />
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/imran_______khan______/"
             target="_blank"
             rel="noreferrer"
           >
             <BsInstagram className="twitter" />
-          </a>
+          </a> */}
           <a href="tel:+916204459226" target="_blank" rel="noreferrer">
             <BsFillTelephoneFill className="phone" />
           </a>

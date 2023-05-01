@@ -1,12 +1,14 @@
 .header {
-  height: 5em;
-  padding-left: 100px;
-  padding-right: 100px;
+  height: 8em;
+  /* padding-left: 100px;
+  padding-right: 100px; */
   width: 100%;
-  justify-content: space-between;
-  position: fixed;
+  max-width: 1500px;
+  margin: 0 auto;
+  justify-content: space-around;
+  /* position: fixed;
   z-index: 1;
-  top: 0;
+  top: 0; */
 }
 
 @media (min-width:381px) and (max-width: 600px) {
