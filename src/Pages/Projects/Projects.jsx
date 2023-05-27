@@ -10,7 +10,6 @@ import { SiNodedotjs } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 
-
 const Projects = () => {
   return (
     <>
@@ -19,13 +18,68 @@ const Projects = () => {
           Projects
         </h2>
 
+        {/* Beautyholic Project Details */}
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://github.com/shivamgupta8482/nemconstructweek/raw/master/frontend/src/Assets/navbar.png"
+                  alt="beautyholic"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>BeautyHolic</h2>
+              <p>
+                Beautyholic is India’s fastest growing online retail store for
+                the day to day and special occasion need of the Makeup, Skin
+                care, Hair care, Personal care, Mom and Baby care, Fragrance and
+                Ayurveda products.
+              </p>
+              <div>
+                <FaReact />
+                <SiRedux />
+                <SiChakraui />
+                <IoLogoJavascript />
+                <DiCss3 />
+                <SiNodedotjs />
+                <SiExpress />
+                <SiMongodb />
+              </div>
+              <div>
+                <a
+                  href="https://tourmaline-gingersnap-06dea8.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/imran120198/boss-development-1619"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Milaap Project Details */}
+
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
                   src="https://user-images.githubusercontent.com/99397606/193451795-90098315-5af7-45b0-b054-8f89649c1135.png"
-                  alt="CricInfo"
+                  alt="Milaap"
                 />
               </div>
             </div>
@@ -68,6 +122,56 @@ const Projects = () => {
           </div>
         </div>
 
+        {/* Bath and Body Project Details */}
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://user-images.githubusercontent.com/99397606/180635144-da13f568-a70b-42bf-aff6-00d1a29786fe.png"
+                  alt="bath and body"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Bath & Body Works</h2>
+              <p>
+                Bath & Body Works, LLC. is an American retail store chain which
+                sells soaps, lotions, fragrances, and candles. It was founded in
+                1990 in New Albany, Ohio and has since expanded across 6
+                continents.
+              </p>
+              <div>
+                <FaReact />
+                <SiHtml5 />
+                <DiCss3 />
+                <IoLogoJavascript />
+              </div>
+              <div>
+                <a
+                  href="https://astonishing-zabaione-fac335.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/imran120198/frightened-hospital-4681"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Amimoto Project Details */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
@@ -114,6 +218,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        {/* Farfetch Project Details */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
@@ -159,6 +265,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        {/* Onnbike Project Details */}
 
         <div className="projects_container">
           <div className="project">
@@ -206,57 +314,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img
-                  src="https://github.com/shivamgupta8482/nemconstructweek/raw/master/frontend/src/Assets/navbar.png"
-                  alt="beautyholic"
-                />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>BeautyHolic</h2>
-              <p>
-                Beautyholic is India’s fastest growing online retail store for
-                the day to day and special occasion need of the Makeup, Skin
-                care, Hair care, Personal care, Mom and Baby care, Fragrance and
-                Ayurveda products.
-              </p>
-              <div>
-                <FaReact />
-                <SiRedux />
-                <SiChakraui />
-                <IoLogoJavascript />
-                <DiCss3 />
-                <SiNodedotjs/>
-                <SiExpress/>
-                <SiMongodb/>
-              </div>
-              <div>
-                <a
-                  href="https://tourmaline-gingersnap-06dea8.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/imran120198/boss-development-1619"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/* Project End */}
       </div>
     </>
   );
