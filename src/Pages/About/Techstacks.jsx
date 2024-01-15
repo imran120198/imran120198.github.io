@@ -1,12 +1,12 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact } from "react-icons/fa";
+import { FaReact, FaBootstrap } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 import {
   SiHtml5,
   SiMaterialui,
   SiNetlify,
   SiRedux,
-  SiJest,
   SiTypescript,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
@@ -19,7 +19,6 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiCypress } from "react-icons/si";
 import { DiGit } from "react-icons/di";
-import { SiHeroku } from "react-icons/si";
 
 export const Techstacks = () => {
   return (
@@ -47,10 +46,7 @@ export const Techstacks = () => {
             <SiRedux />
             <h5>Redux</h5>
           </div>
-          <div>
-            <SiMongodb />
-            <h5>MongoDb</h5>
-          </div>
+
           <div>
             <FaNodeJs />
             <h5>Node JS</h5>
@@ -58,6 +54,14 @@ export const Techstacks = () => {
           <div>
             <SiExpress />
             <h5>Express</h5>
+          </div>
+          <div>
+            <SiMongodb />
+            <h5>MongoDb</h5>
+          </div>
+          <div>
+            <SiMysql />
+            <h5>My SQL</h5>
           </div>
           <div>
             <SiTypescript />
@@ -80,6 +84,10 @@ export const Techstacks = () => {
             <h5>Chakra Ui</h5>
           </div>
           <div>
+            <FaBootstrap />
+            <h5>Bootstrap</h5>
+          </div>
+          <div>
             <SiNetlify />
             <h5>Netlify</h5>
           </div>
@@ -88,16 +96,8 @@ export const Techstacks = () => {
             <h5>Vercel</h5>
           </div>
           <div>
-            <SiHeroku />
-            <h5>Heroku</h5>
-          </div>
-          <div>
             <SiCypress />
             <h5>Cypress</h5>
-          </div>
-          <div>
-            <SiJest />
-            <h5>Jest</h5>
           </div>
         </div>
       </div>
