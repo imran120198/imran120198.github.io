@@ -19,6 +19,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiCypress } from "react-icons/si";
 import { DiGit } from "react-icons/di";
+import { SiPhp } from "react-icons/si";
 
 export const Techstacks = () => {
   return (
@@ -60,6 +61,10 @@ export const Techstacks = () => {
             <h5>MongoDb</h5>
           </div>
           <div>
+          <SiPhp />
+          <h5>PHP</h5>
+          </div>
+          <div>
             <SiMysql />
             <h5>My SQL</h5>
           </div>
@@ -95,10 +100,10 @@ export const Techstacks = () => {
             <TbBrandVercel />
             <h5>Vercel</h5>
           </div>
-          <div>
+          {/* <div>
             <SiCypress />
             <h5>Cypress</h5>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

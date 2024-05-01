@@ -9,6 +9,7 @@ import { SiChakraui } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import Beautiholic from "../../resource/Beautiholic.png";
 
 const Projects = () => {
   return (
@@ -23,10 +24,7 @@ const Projects = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
-                <img
-                  src="https://github.com/shivamgupta8482/nemconstructweek/raw/master/frontend/src/Assets/navbar.png"
-                  alt="beautyholic"
-                />
+                <img src={Beautiholic} alt="beautyholic" />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">

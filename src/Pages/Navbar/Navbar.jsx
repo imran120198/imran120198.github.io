@@ -20,7 +20,7 @@ export const Navbar = () => {
   };
 
   const handelclick=()=>{
-    return window.open("https://drive.google.com/file/d/1-iWeCjKjXO3MwAr-0VLKNETRo1v-cKCA/view?usp=share_link","_blank")
+    return window.open("https://drive.google.com/file/d/1-iWeCjKjXO3MwAr-0VLKNETRo1v-cKCA/view?usp=drive_link","_blank")
    }
 
   return (
