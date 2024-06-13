@@ -10,6 +10,7 @@ import { SiNodedotjs } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import Beautiholic from "../../resource/Beautiholic.png";
+import chatbot from "../../resource/chatbot.png";
 
 const Projects = () => {
   return (
@@ -108,6 +109,52 @@ const Projects = () => {
                 </a>
                 <a
                   href="https://github.com/shubhfire/sordid-authority-4005"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* React Flow Chatbot */}
+
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img src={chatbot} alt="Chatbot" />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Chatbot Flow Builder</h2>
+              <p>
+                The Chatbot Flow Builder is a web application designed to create
+                and visualize chatbot message flows. It allows users to add,
+                connect, and configure different types of nodes (currently only
+                text nodes) to define the order of chatbot message execution.
+              </p>
+              <div>
+                <FaReact />
+                <IoLogoJavascript />
+                <DiCss3 />
+              </div>
+              <div>
+                <a
+                  href="https://chatbot-flow-builder-pi-seven.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/imran120198/Chatbot-flow-builder"
                   target="_blank"
                   rel="noreferrer"
                 >

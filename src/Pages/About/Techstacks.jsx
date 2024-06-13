@@ -9,6 +9,7 @@ import {
   SiRedux,
   SiTypescript,
 } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
@@ -60,13 +61,13 @@ export const Techstacks = () => {
             <SiMongodb />
             <h5>MongoDb</h5>
           </div>
-          <div>
+          {/* <div>
           <SiPhp />
           <h5>PHP</h5>
-          </div>
+          </div> */}
           <div>
             <SiMysql />
-            <h5>My SQL</h5>
+            <h5>MySQL</h5>
           </div>
           <div>
             <SiTypescript />
@@ -81,16 +82,21 @@ export const Techstacks = () => {
             <h5>Git</h5>
           </div>
           <div>
-            <SiMaterialui />
-            <h5>Material Ui</h5>
+            <SiChakraui />
+            <h5>Chakra UI</h5>
           </div>
           <div>
-            <SiChakraui />
-            <h5>Chakra Ui</h5>
+            <SiMaterialui />
+            <h5>Material UI</h5>
           </div>
+
           <div>
             <FaBootstrap />
             <h5>Bootstrap</h5>
+          </div>
+          <div>
+            <SiTailwindcss />
+            <h5>Tailwind-UI</h5>
           </div>
           <div>
             <SiNetlify />
