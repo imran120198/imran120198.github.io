@@ -19,9 +19,12 @@ export const Navbar = () => {
     setShowNavList(!showNavList);
   };
 
-  const handelclick=()=>{
-    return window.open("https://drive.google.com/file/d/1-iWeCjKjXO3MwAr-0VLKNETRo1v-cKCA/view?usp=drive_link","_blank")
-   }
+  const handelclick = () => {
+    return window.open(
+      "https://drive.google.com/file/d/1Ru-LYmcaxMoSVi8CG2eK1jv5r_GcIUK4/view?usp=sharing",
+      "_blank"
+    );
+  };
 
   return (
     <>

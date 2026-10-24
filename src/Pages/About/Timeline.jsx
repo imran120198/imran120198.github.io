@@ -31,7 +31,41 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"December 2021 - Present"}
+            date={"September 2024 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Software Developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Edulab Educational Exchange Pvt. Ltd.
+            </h4>
+            <p data-aos="fade-right">
+              Edulab is a pioneering platform driving technological advancement
+              across universities in Maharashtra, empowering institutions to
+              thrive in an increasingly digital and knowledge-driven economy.
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            date={"January 2022 - Febuary 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -115,7 +149,9 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Bachelor of Technology<br/>(Mechanical Engineering)
+              Bachelor of Technology
+              <br />
+              (Mechanical Engineering)
             </h3>
             <p data-aos="fade-right">
               National Institute of Science and Technology,Odisha
